@@ -9,7 +9,7 @@ gasPriceApp.controller('gasPriceController',  ['$scope', '$sce', '$http',  funct
   var xLabels = [];
   var yLabels = [];
   $scope.init = function () {
-    console.log('hello body')
+    
     var url = "https://gas-price-service.herokuapp.com/gasprice/tamilnadu"
     $http.get(url)
           .then(function(response){
