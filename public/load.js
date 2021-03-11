@@ -10,16 +10,16 @@ gasPriceApp.controller('gasPriceController',  ['$scope', '$filter' , '$http',  f
   var yLabels = [];
   $scope.init = function () {
 
-    //var url = "https://gas-price-service.herokuapp.com/gasprice/"
-    var url = "http://localhost:8103/gasprice/"
+    var url = "https://gas-price-service.herokuapp.com/gasprice/"
+    //var url = "http://localhost:8103/gasprice/"
     var date = window.encodeURIComponent($filter('date')(new Date(), 'yyyyMMdd'));
     $http.get(url+date)
           .then(function(response){
               $scope.responseData = response.data;
               $scope.gasPriceList = $scope.responseData.result;
           });
-    //var chartUrl = "https://gas-price-service.herokuapp.com/gasprice/trend"
-    var chartUrl = "http://localhost:8103/gasprice/trend"
+    var chartUrl = "https://gas-price-service.herokuapp.com/gasprice/trend"
+    //var chartUrl = "http://localhost:8103/gasprice/trend"
     $http.get(chartUrl)
           .then(function(response){
             console.log(response);
