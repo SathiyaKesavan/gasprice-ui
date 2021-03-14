@@ -10,3 +10,7 @@ app.use(express.static(publicDistPath))
 app.listen(process.env.PORT || 3000, () => {
   console.log('Server started at' + process.env.PORT)
 })
+
+app.get('/gasprice/ui/heartbeat', (req, res) => {
+  res.send('Gas Price UI Alive')
+})
