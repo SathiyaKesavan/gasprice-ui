@@ -11,4 +11,4 @@ Try it for yourself -> https://gasprice-ui.herokuapp.com/
 ![Gitfinal](https://user-images.githubusercontent.com/30667005/110126138-1c64d700-7d92-11eb-9c36-e3a95a27d319.png)
 
 Sample UI
-![Screen Shot 2021-03-15 at 8 42 05 PM](https://user-images.githubusercontent.com/30667005/111239153-f7146c00-85ce-11eb-8300-fdd4012caa29.png)
+![Screen Shot 2021-03-15 at 8 43 52 PM](https://user-images.githubusercontent.com/30667005/111239259-2d51eb80-85cf-11eb-8884-72a16ad6109a.png)
